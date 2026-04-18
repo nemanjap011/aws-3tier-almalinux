@@ -1,0 +1,36 @@
+# Terraform working directories
+**/.terraform/*
+.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+**/*.tfstate
+**/*.tfstate.*
+
+# Terraform lock file
+# Keep this if you want reproducible provider versions
+# Remove the next line if you WANT to track .terraform.lock.hcl
+# .terraform.lock.hcl
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# OS/editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
