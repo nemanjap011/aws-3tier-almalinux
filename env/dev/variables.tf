@@ -37,3 +37,12 @@ variable "db_private_subnet_cidrs" {
   description = "CIDRs for private DB subnets"
   type        = list(string)
 }
+
+variable "ami_id" {
+  type = string
+}
+
+variable "app_instance_type" {
+  type    = string
+  default = "t3.micro"
+}
