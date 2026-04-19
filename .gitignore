@@ -34,3 +34,11 @@ override.tf.json
 *.swp
 .DS_Store
 Thumbs.db
+
+# local architecture artifacts
+docs/02-architecture/*.html
+docs/02-architecture/*.pdf
+docs/02-architecture/*.png
+
+# terraform local plan files
+env/dev/tfplan
